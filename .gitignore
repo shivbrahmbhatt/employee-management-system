@@ -1,0 +1,29 @@
+# Java / Maven / IntelliJ
+target/
+.idea/
+*.class
+*.log
+dependency-reduced-pom.xml
+
+# Spring Boot
+!application.properties  # Keep this if you've removed secrets
+# If you want to exclude it, uncomment the next line:
+# backend/src/main/resources/application.properties
+
+# Node.js / Angular
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+.angular/
+package-lock.json
+yarn-debug.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Environment & secrets (never commit!)
+.env
+*.env
+secrets/
