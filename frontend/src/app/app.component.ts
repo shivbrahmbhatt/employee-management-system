@@ -5,8 +5,8 @@ import { EmployeeFormComponent } from './employee-form/employee-form.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true, // 👈 ADD THIS
-  imports: [CommonModule, EmployeeListComponent, EmployeeFormComponent], // 👈 CommonModule is required
+  standalone: true,
+  imports: [CommonModule, EmployeeListComponent, EmployeeFormComponent],
   template: `
     <header style="background: #f5f5f5; padding: 15px; text-align: center;">
       <h1>Employee Management System</h1>
